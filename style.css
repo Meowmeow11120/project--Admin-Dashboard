@@ -181,7 +181,7 @@ body {
     padding-top: 0.5208vw;
     list-style-type: none;
     display: grid;
-    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    grid-template: repeat(2, minmax(200px, 1fr)) / repeat(4, minmax(200px, 1fr));
     row-gap: 1vw;
     column-gap: 1vw;
 }
